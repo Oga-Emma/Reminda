@@ -1,4 +1,4 @@
-package app.seven.reminda.ui.theme
+package app.seven.reminda.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
