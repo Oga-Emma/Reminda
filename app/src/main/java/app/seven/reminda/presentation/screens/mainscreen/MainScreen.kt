@@ -1,4 +1,4 @@
-package app.seven.reminda.presentation.view.mainscreen
+package app.seven.reminda.presentation.screens.mainscreen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -15,11 +15,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import app.seven.reminda.presentation.theme.Pallet
 import app.seven.reminda.presentation.theme.RemindaTheme
-import app.seven.reminda.presentation.view.mainscreen.components.HeaderArea
-import app.seven.reminda.presentation.view.mainscreen.components.RColor
-import app.seven.reminda.presentation.view.mainscreen.components.ReminderCountArea
-import app.seven.reminda.presentation.view.mainscreen.components.TodayReminderHeader
-import app.seven.reminda.presentation.view.mainscreen.components.TodayReminderListItem
+import app.seven.reminda.presentation.screens.mainscreen.components.HeaderArea
+import app.seven.reminda.presentation.components.RColor
+import app.seven.reminda.presentation.screens.mainscreen.components.ReminderCountArea
+import app.seven.reminda.presentation.screens.mainscreen.components.TodayReminderHeader
+import app.seven.reminda.presentation.screens.mainscreen.components.TodayReminderListItem
 import app.seven.reminda.util.RPreview
 
 @Composable

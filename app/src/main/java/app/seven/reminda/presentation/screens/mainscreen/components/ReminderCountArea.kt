@@ -1,4 +1,4 @@
-package app.seven.reminda.presentation.view.mainscreen.components
+package app.seven.reminda.presentation.screens.mainscreen.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

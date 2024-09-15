@@ -1,4 +1,4 @@
-package app.seven.reminda.presentation.component
+package app.seven.reminda.presentation.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -21,6 +21,7 @@ import app.seven.reminda.util.RPreview
 
 @Composable
 fun CircularIcon(
+    modifier: Modifier = Modifier,
     icon: ImageVector,
     contentDescription: String,
     backgroundColor: Color,
@@ -32,11 +33,13 @@ fun CircularIcon(
                 color = backgroundColor.copy(alpha = 0.5f),
                 shape = RoundedCornerShape(50)
             )
-            .size(42.dp)
+            .size(48.dp)
     ) {
         Icon(
-            modifier = Modifier.align(Alignment.Center),
-            imageVector = icon, contentDescription = contentDescription, tint = tint
+            modifier = modifier.align(Alignment.Center),
+            imageVector = icon,
+            contentDescription = contentDescription,
+            tint = tint
         )
     }
 }
