@@ -1,4 +1,8 @@
 package app.seven.reminda.presentation.view.editorscreen
 
-class EditorScreen {
+import androidx.compose.runtime.Composable
+
+@Composable
+fun EditorScreen() {
+
 }

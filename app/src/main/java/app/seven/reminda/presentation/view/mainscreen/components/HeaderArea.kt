@@ -17,6 +17,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.seven.reminda.presentation.component.CircularIcon
+import app.seven.reminda.presentation.theme.Pallet
 import app.seven.reminda.presentation.theme.RemindaTheme
 import app.seven.reminda.util.RPreview
 
@@ -38,7 +39,7 @@ fun HeaderArea() {
             CircularIcon(
                 icon = Icons.Default.Add,
                 contentDescription = "add icon",
-                backgroundColor = MaterialTheme.colorScheme.primary
+                backgroundColor = Pallet.blueGrey
             )
         }
     }
